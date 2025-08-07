@@ -28,7 +28,17 @@ export default function RootLayout({
     <html lang="en">
             
       <header>
-        <Image src="/asta-tu-dortmund-mathetower-cut-1920.jpg" alt="AStA Logo" width={1920} height={1080} />
+                <Image 
+          src="/asta-tu-dortmund-mathetower-cut-1920.jpg" 
+          alt="AStA Logo" 
+          width={1920} 
+          height={1080} 
+          style={{
+            width: '100%',
+            height: 'auto',
+            maxWidth: '100%'
+          }}
+        />
       </header>
       
       <body className={`${geistSans.variable} ${geistMono.variable}`}>

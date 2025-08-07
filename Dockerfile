@@ -12,6 +12,7 @@ RUN npm install --production
 
 # Rest kopieren (z.B. .next, public, etc.)
 COPY . .
+RUN npm run build
 
 # Port für den Container
 EXPOSE 3000

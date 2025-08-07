@@ -37,6 +37,7 @@ export default function Home() {
   return (
     <main className="max-w-xl mx-auto p-6">
       {/* Sprachumschalter */}
+
       <div className="mb-6 flex justify-end space-x-4">
         <button
           onClick={() => setLocale(locale === 'de' ? 'en' : 'de')}
@@ -45,10 +46,6 @@ export default function Home() {
           {t.switchLabel}
         </button>
       </div>
-
-      <header>
-        <img src="public/asta-tu-dortmund-mathetower-cut-1920.jpg" alt="AStA Logo" className="mx-auto my-4 w-32 h-auto" />
-      </header>
 
       <h1 className="text-3xl font-bold mb-4">{t.title}</h1>
       <p className="mb-6">{t.welcome}</p>

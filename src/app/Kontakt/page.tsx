@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 const content = {
     de: {
-        title: 'Material- und Raumverleih',
+        title: 'Kontakt',
         body: (
             <>
                 <p>Ihr erreicht den AStA auf folgenden Wegen:</p>
@@ -29,7 +29,7 @@ const content = {
         switchLabel: 'Switch to English',
     },
     en: {
-        title: 'Material and room rental',
+        title: 'Contact',
         body: (
             <>
                 <ul>

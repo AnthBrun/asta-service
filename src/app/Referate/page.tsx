@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 const content = {
     de: {
-        title: 'Material- und Raumverleih',
+        title: 'Referate',
         body: (
             <>
                 <em>Vorsitz</em>
@@ -57,7 +57,7 @@ const content = {
         switchLabel: 'Switch to English',
     },
     en: {
-        title: 'Material and room rental',
+        title: 'Consultants',
         body: (
             <>
                 <em>AStA Head of Office</em><br />

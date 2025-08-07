@@ -83,7 +83,7 @@ export default function Home() {
                     <Link
                         key={href}
                         href={href}
-                        className="block bg-blue-600 text-white text-center py-2 px-4 rounded hover:bg-blue-700"
+                        className="block bg-lime-600 text-white px-4 py-2 rounded hover:bg-lime-700"
                     >
                         {label}
                     </Link>

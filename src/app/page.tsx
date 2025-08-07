@@ -46,6 +46,10 @@ export default function Home() {
         </button>
       </div>
 
+      <header>
+        <img src="public/asta-tu-dortmund-mathetower-cut-1920.jpg" alt="AStA Logo" className="mx-auto my-4 w-32 h-auto" />
+      </header>
+
       <h1 className="text-3xl font-bold mb-4">{t.title}</h1>
       <p className="mb-6">{t.welcome}</p>
       <div className="space-y-3">
@@ -53,7 +57,7 @@ export default function Home() {
           <Link
             key={href}
             href={href}
-            className="block bg-blue-600 text-white text-center py-2 px-4 rounded hover:bg-blue-700"
+            className="block bg-lime-600 text-white px-4 py-2 rounded hover:bg-lime-700"
           >
             {label}
           </Link>

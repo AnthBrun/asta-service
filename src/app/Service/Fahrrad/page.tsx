@@ -56,7 +56,7 @@ export default function AuthenticationPage() {
                 </button>
             </div>
 
-            <h1 className="text-3xl sm:text-4xl font-bold mb-4 break-words max-w-full">{t.title}</h1>
+            <h1 className="text-3xl sm:text-4xl font-bold mb-4 break-words max-w-full post-headline">{t.title}</h1>
             <div className="prose mb-6">
                 {t.body}
             </div>

@@ -50,7 +50,7 @@ export default function Page() {
                 </button>
             </div>
 
-            <h1 className="text-3xl font-bold mb-4">{t.title}</h1>
+            <h1 className="text-3xl font-bold mb-4 post-headline">{t.title}</h1>
             <div className="prose mb-6">
                 {t.body}
             </div>

@@ -1,4 +1,48 @@
 @import 'tailwindcss';
+
+.page-border {
+  border: 2px solid #e0e0e0;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.post-headline {
+  text-align: center;
+  padding-left: 0.75rem;    
+  padding-right: 0.75rem;   
+  padding-top: 0.25rem;     
+  padding-bottom: 0.25rem;  
+  border-width: 1px;        
+  border-radius: 0.4rem;     
+  color: white;
+  background-color: #84b816;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.bg-lime-600 {
+  background-color: #84b816;
+}
+
+/* .text-3xl {
+  padding-left: 0.75rem;    
+  padding-right: 0.75rem;   
+  padding-top: 0.25rem;     
+  padding-bottom: 0.25rem;  
+  border-width: 1px;        
+  border-radius: 0.25rem;     
+  color: white;
+  background-color: #84b816;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.space-y-3 {
+  max-width: 95%;
+  align-items: center;
+} */
+
 /* 
 :root {
   --background: #ffffff;
